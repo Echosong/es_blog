@@ -1,0 +1,6 @@
+{
+    "require": {
+        "cheprasov/php-redis-client": "^1.7",
+        "vlucas/valitron": "^1.4"
+    }
+}
