@@ -8,6 +8,7 @@
 
 3 . cd 到当前根目录 执行 composer install （composer 自补） 
 
+4. web服务器重定向配置
 
 .hitaccess(Apache):
 
