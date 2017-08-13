@@ -18,10 +18,12 @@
     <link href="/res/css/<?=$routes['a']?>.css" rel="stylesheet" />
     <!-- layui.js -->
     <script src="/res/plug/layui/layui.js"></script>
-    <script src="/res/js/jquery.min.js"></script>
+
     <!-- 全局脚本 -->
     <script src="/res/js/global.js"></script>
     <script src="/res/js/<?=$routes['a']?>.js"></script>
+
+    <script src="/res/js/jquery.min.js"></script>
 </head>
 <body>
 <!-- 导航 -->
@@ -35,7 +37,7 @@
             <img src="/res/images/Absolutely.jpg" alt="Absolutely" title="Absolutely" />
         </a>
         <!-- 不落阁 -->
-        <a class="blog-logo" href="home.html">ES-博客</a>
+        <a class="blog-logo" href="/">ES-博客</a>
         <!-- 导航菜单 -->
         <ul class="layui-nav" lay-filter="nav">
             <li class="layui-nav-item  <?php if($routes['a']=="home") echo "layui-this"; ?>" >
