@@ -69,7 +69,7 @@
                     </ul>
                 </div>
             </div>
-            <?php include "right.php" ?>
+            <?php include  $template_dir."/right.php" ?>
             <div class="clear"></div>
         </div>
     </div>
